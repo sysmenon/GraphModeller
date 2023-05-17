@@ -1,5 +1,5 @@
-// wxWidgets "Hello world" Program
-// For compilers that support precompilation, includes "wx/wx.h".
+
+
 
 //#include <vector>
 #include <wx/wxchar.h>
