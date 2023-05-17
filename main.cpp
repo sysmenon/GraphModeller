@@ -140,12 +140,11 @@ void MyFrame::OnExit(wxCommandEvent& event)
 }
 void MyFrame::OnAbout(wxCommandEvent& event)
 {
-    wxMessageBox("This is a wxWidgets' Hello world sample",
-        "About Hello World", wxOK | wxICON_INFORMATION);
+    
 }
 void MyFrame::OnHello(wxCommandEvent& event)
 {
-    wxLogMessage("Hello world from wxWidgets!");
+
 }
 
 void MyFrame::OnPointCreate(wxCommandEvent& event) {
@@ -183,7 +182,7 @@ wxInt32 Point::getycoord() {
 
 bool MyApp::OnInit()
 {
-    MyFrame* frame = new MyFrame("Hello World", wxPoint(50, 50), wxSize(450, 340));
+    MyFrame* frame = new MyFrame("Hi", wxPoint(50, 50), wxSize(450, 340));
 
     frame->Show(true);
     return true;
